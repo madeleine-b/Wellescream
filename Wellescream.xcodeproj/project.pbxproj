@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4272C9619C3EFAE00C267BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4272C9519C3EFAE00C267BA /* Main.storyboard */; };
 		D4FCD5AC19C3E2070086CE47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4FCD5AB19C3E2070086CE47 /* Foundation.framework */; };
 		D4FCD5AE19C3E2070086CE47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4FCD5AD19C3E2070086CE47 /* CoreGraphics.framework */; };
 		D4FCD5B019C3E2080086CE47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4FCD5AF19C3E2080086CE47 /* UIKit.framework */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D4272C9519C3EFAE00C267BA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D4FCD5A819C3E2070086CE47 /* Wellescream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wellescream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FCD5AB19C3E2070086CE47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D4FCD5AD19C3E2070086CE47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -111,6 +113,7 @@
 				D4FCD5BB19C3E2080086CE47 /* AppDelegate.m */,
 				D4FCD5BD19C3E2080086CE47 /* Images.xcassets */,
 				D4FCD5B219C3E2080086CE47 /* Supporting Files */,
+				D4272C9519C3EFAE00C267BA /* Main.storyboard */,
 			);
 			path = Wellescream;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4272C9619C3EFAE00C267BA /* Main.storyboard in Resources */,
 				D4FCD5B619C3E2080086CE47 /* InfoPlist.strings in Resources */,
 				D4FCD5BE19C3E2080086CE47 /* Images.xcassets in Resources */,
 			);
@@ -437,6 +441,7 @@
 				D4FCD5D619C3E2080086CE47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4FCD5D719C3E2080086CE47 /* Build configuration list for PBXNativeTarget "WellescreamTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +450,7 @@
 				D4FCD5D919C3E2080086CE47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
